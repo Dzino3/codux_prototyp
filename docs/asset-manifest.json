@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codux_prototyp/static/css/main.e6c13ad2.css",
+    "main.js": "/codux_prototyp/static/js/main.9de0ea9b.js",
+    "static/js/787.91810173.chunk.js": "/codux_prototyp/static/js/787.91810173.chunk.js",
+    "index.html": "/codux_prototyp/index.html",
+    "main.e6c13ad2.css.map": "/codux_prototyp/static/css/main.e6c13ad2.css.map",
+    "main.9de0ea9b.js.map": "/codux_prototyp/static/js/main.9de0ea9b.js.map",
+    "787.91810173.chunk.js.map": "/codux_prototyp/static/js/787.91810173.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9de0ea9b.js"
+  ]
+}
