@@ -65,13 +65,14 @@ function BestellForm( {error, setError}) {
         display: 'inline-block',
         padding: '10px 15px', 
         borderRadius:'8px',
-        backgroundImage: 'linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, green)',
+        backgroundImage: 'linear-gradient(to right, rgb(255, 222, 0) 50%, rgb(255, 222, 0) 50%, black)',
         backgroundSize: '200%',
         backgroundPosition: '0%',
         transition: '0.4s',
-        color: 'green',
+        color: 'black',
         fontWeight: 'bold',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        border: 'none'
     }
 
   return (

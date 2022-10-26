@@ -27,7 +27,7 @@ function LoginFrom({Login, error}) {
         right: '-5px',
         bottom: '-5px',
         zIndex: '1',
-        backgroundImage: 'linear-gradient(to bottom right, #FFCE00, green)'
+        backgroundColor: 'rgb(54, 124, 43)'
     }
     const formInnerStyle = {
         position: 'relative',
@@ -40,7 +40,7 @@ function LoginFrom({Login, error}) {
     const h2FromStyle = {
         color: '#888',
         fontSize: '28px',
-        fontWeight: '500',
+        fontWeight: '400',
         marginBottom: '30px'
     }
     const groupStyle = {
@@ -67,13 +67,14 @@ function LoginFrom({Login, error}) {
         display: 'inline-block',
         padding: '10px 15px', 
         borderRadius:'8px',
-        backgroundImage: 'linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, green)',
+        backgroundImage: 'linear-gradient(to right, rgb(255, 222, 0) 50%, rgb(255, 222, 0) 50%, black)',
         backgroundSize: '200%',
         backgroundPosition: '0%',
         transition: '0.4s',
-        color: 'green',
+        color: 'black',
         fontWeight: 'bold',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        border: 'none'
     }
     const errorStyle = {
         color: 'red'

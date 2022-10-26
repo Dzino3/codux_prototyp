@@ -45,7 +45,7 @@ function App() {
     right: '-5px',
     bottom: '-5px',
     zIndex: '-1',
-    backgroundImage: 'linear-gradient(to bottom right, #FFCE00, green)'
+    backgroundColor: 'rgb(54, 124, 43)'
   }
   const errorStyle = {
     color: 'red'
@@ -61,15 +61,16 @@ function App() {
     display: 'inline-block',
     padding: '10px 15px', 
     borderRadius:'8px',
-    backgroundImage: 'linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, green)',
+    backgroundImage: 'linear-gradient(to right, rgb(255, 222, 0) 50%, rgb(255, 222, 0) 50%, black)',
     backgroundSize: '200%',
     backgroundPosition: '0%',
     transition: '0.4s',
-    color: 'green',
+    color: 'black',
     fontWeight: 'bold',
     cursor: 'pointer',
     marginBottom: '10px',
-    marginLeft:'10px'
+    marginLeft:'10px',
+    border: 'none'
   }
 
   return (
