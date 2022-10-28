@@ -78,7 +78,7 @@ function App() {
     <div className="App">
       {(user.name !== "") ? (
         <div className='website' style={appStyle}> 
-          <h2 style={h2FromStyle} >Willkommen, <span>{user.name}</span></h2>
+          <h2 style={h2FromStyle} >Wellcome, <span>{user.name}</span></h2>
           <BestellForm error={error} setError={setError}></BestellForm>
           <button onClick={Logout} style={logoutStyle}>LOGOUT</button>
         </div>

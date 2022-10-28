@@ -81,7 +81,7 @@ function BestellForm( {error, setError}) {
     <div className='form-inner' style={formInnerStyle}>
         {(error !== "") ? (<div className='error' style={errorStyle}>{error}</div>) : ""}
         <div className='form-group' style={groupStyle}>
-            <label style={labelStyle}>Bestellnummer:</label>
+            <label style={labelStyle}>Order number:</label>
             <input style={inputStyle} type="text" name='bestellnummer' id='bestellnummer' onChange={e => setDetailsB({...detailsB, name: e.target.value})} value={detailsB.name}></input>
         </div>
         <input type="button" value="CHECK" style={buttonStyle} onClick={Checked}></input>

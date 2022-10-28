@@ -85,10 +85,10 @@ function LoginFrom({Login, error}) {
     <>
     <form onSubmit={submitHandler} style={formStyle}>
         <div className='form-inner' style={formInnerStyle}>
-            <h2 style={h2FromStyle}>Kundennummer eingeben</h2>
+            <h2 style={h2FromStyle}>Enter customer number</h2>
             {(error != "") ? (<div className='error' style={errorStyle}>{error}</div>) : ""}
             <div className='form-group' style={groupStyle}>
-                <label style={labelStyle}>Kundennummer:</label>
+                <label style={labelStyle}>Customer number:</label>
                 <input style={inputStyle} type="text" name='name' id='name' onChange={e => setDetails({...details, name: e.target.value})} value={details.name}></input>
             </div>
             <input type="submit" value="LOGIN" style={buttonStyle}></input>
